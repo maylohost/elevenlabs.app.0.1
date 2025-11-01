@@ -1,23 +1,26 @@
-```
-███╗   ███╗    █████╗    ██╗   ██╗██╗      ██████╗ 
-████╗ ████║   ██╔══██╗   ╚██╗ ██╔╝██║     ██╔═══██╗
-██╔████╔██║   ███████║    ╚████╔╝ ██║     ██║   ██║
-██║╚██╔╝██║   ██╔══██║     ╚██╔╝  ██║     ██║   ██║
-██║ ╚═╝ ██║   ██║  ██║      ██║   ███████╗╚██████╔╝
-╚═╝     ╚═╝   ╚═╝  ╚═╝      ╚═╝   ╚══════╝ ╚═════╝ 
-```
+███╗   ███╗ █████╗ ██╗   ██╗██╗      ██████╗ 
+████╗ ████║██╔══██╗╚██╗ ██╔╝██║     ██╔═══██╗
+██╔████╔██║███████║ ╚████╔╝ ██║     ██║   ██║
+██║╚██╔╝██║██╔══██║  ╚██╔╝  ██║     ██║   ██║
+██║ ╚═╝ ██║██║  ██║   ██║   ███████╗╚██████╔╝
+╚═╝     ╚═╝╚═╝  ╚═╝   ╚═╝   ╚══════╝ ╚═════╝ 
 
 # ElevenLabs Voice Converter
 
+![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)
+![Platform](https://img.shields.io/badge/Platform-Linux-lightgrey.svg)
+![License](https://img.shields.io/badge/License-MIT-green.svg)
+
 A simple desktop application for Linux that records audio and converts it using the ElevenLabs Speech-to-Speech API.
 
-## Features
+## ⭐ Features
 
-- 🎙️ Real-time audio recording with live timer
-- 🔄 Voice conversion using ElevenLabs API
-- 💾 Automatic file organization with timestamps
-- 🖥️ Simple GUI built with tkinter
-- ✅ Comprehensive error handling and validation
+- 🎙️ **Real-time Recording**: Record audio directly from your microphone
+- ⏱️ **Live Timer**: See recording duration in real-time
+- 🔄 **Voice Conversion**: Transform your voice using ElevenLabs AI
+- 💾 **Auto Organization**: Files saved with timestamps automatically
+- ✅ **Error Handling**: Comprehensive error messages and validation
+- 🖥️ **Simple GUI**: Easy-to-use tkinter interface
 
 ## Requirements
 
@@ -33,9 +36,15 @@ On Debian/Ubuntu-based systems:
 sudo apt install python3-tk
 ```
 
-## Installation
+## 🚀 Quick Start
 
-1. Clone or download this repository
+### Installation
+
+1. Clone the repository:
+```bash
+git clone https://github.com/maylohost/elevenlabs.app.0.1.git
+cd elevenlabs.app.0.1
+```
 
 2. Create a virtual environment (recommended):
 ```bash
@@ -99,9 +108,14 @@ The application includes robust error handling for:
 - File permission problems
 - Invalid audio files
 
-## License
+## 📝 License
 
-This project is provided as-is for personal use.
+This project is open source and available under the MIT License.
+
+## 👤 Author
+
+**maylohost**
+- GitHub: [@maylohost](https://github.com/maylohost)
 
 ## Notes
 
