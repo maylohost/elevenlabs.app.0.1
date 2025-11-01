@@ -1,0 +1,13 @@
+#!/bin/bash
+# Example launch script - customize paths for your setup
+# Copy this to launch.sh and modify paths as needed
+
+# Activate virtual environment (adjust path as needed)
+source venv/bin/activate
+
+# Set API key (optional if already in environment)
+# export ELEVENLABS_API_KEY="your_key_here"
+
+# Run the application
+python3 voice_converter_final.py
+

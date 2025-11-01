@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv
+
+# Audio files and recordings
+registrazioni/
+conversioni/
+*.wav
+*.mp3
+*.ogg
+*.flac
+
+# Environment variables and secrets
+.env
+.env.local
+*.key
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.test_*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Personal scripts with hardcoded paths
+launch.sh
+
+# Logs
+*.log
+
