@@ -97,8 +97,8 @@ python3 voice_converter_final.py
 
 ### File Organization
 
-- Recordings are saved in: `~/Appz/voiceelevenlabs/registrazioni/`
-- Converted files are saved in: `~/Appz/voiceelevenlabs/conversioni/`
+- Recordings are saved in: `~/Appz/voiceelevenlabs/recordings/`
+- Converted files are saved in: `~/Appz/voiceelevenlabs/conversions/`
 - Files are automatically named with timestamps
 
 ## Error Handling

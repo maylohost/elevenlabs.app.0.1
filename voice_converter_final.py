@@ -28,8 +28,8 @@ if not API_KEY:
 
 # Paths
 BASE_DIR = os.path.expanduser("~/Appz/voiceelevenlabs")
-RECORDINGS_DIR = os.path.join(BASE_DIR, "registrazioni")
-CONVERSIONS_DIR = os.path.join(BASE_DIR, "conversioni")
+RECORDINGS_DIR = os.path.join(BASE_DIR, "recordings")
+CONVERSIONS_DIR = os.path.join(BASE_DIR, "conversions")
 os.makedirs(RECORDINGS_DIR, exist_ok=True)
 os.makedirs(CONVERSIONS_DIR, exist_ok=True)
 
